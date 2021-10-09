@@ -1,0 +1,163 @@
+body{
+  font-family: "Montserrat-Black";
+}
+
+.navbar{
+  padding-left: 2%;
+  margin-bottom: 3rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1rem;
+}
+#title{
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(6,6,6,1) 1%, rgba(241,241,241,1) 18%);
+
+}
+.toolsImg{
+  max-width: 90%;
+  opacity:0.2;
+  transition: all 3s ease;
+
+}
+.toolsImg:hover{
+  transform:scale(0.5)rotate(45deg);
+  /* transform: rotateX(30deg); */
+
+  /* transform: rotate(360deg);} */
+}
+.container-fluid{
+  padding: 3% 5%;
+  line-height: 2;
+  position: relative;
+
+}
+.container-fluid a{
+  text-decoration: none;
+  color: white;
+}
+.container-fluid a:hover{
+  color:black;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1,5;
+}
+
+h2{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+}
+h5{
+  color:black;
+  margin: 2% auto;
+}
+p.borBud{
+  margin-right: 10%;
+  text-align: justify;
+}
+
+.fb-button{
+  background-color: black;
+  /* border: solid 2px grey; */
+  color: white;
+  margin-right: 10vw;
+  text-decoration: none;
+
+}
+
+.fb-button:hover{
+  background-color: white;
+  color: black;
+  border: solid 2px black;
+  transform: scale(1.5);
+  transition: all 2s ease;
+}
+.pic-button:hover{
+  transform: scale(1.5);
+  transition: all 2s ease;
+}
+
+.fa-paint-roller{
+  margin-right: 1vw;
+}
+
+
+/* Features */
+#features{
+  text-align: justify;
+  color: white;
+  background:  linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(16,165,237,1) 18%, rgba(6,6,6,1) 78%);
+  cursor:grabbing;
+  padding: 3% 5%;
+}
+
+#features .fas{
+  margin-right: 1vw;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+}
+.h3feature{
+  text-align: center;
+}
+.h3feature i:hover{
+  color: silver;
+}
+.feature-box{
+  padding-right: 5%;
+  padding-bottom : 3%;
+}
+
+
+/* Picture section:   ; */
+
+
+
+#picture{
+  padding: 7% 15%;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(6,6,6,1) 1%, rgba(241,241,241,1) 68%);
+
+}
+.Our-job{
+  margin:  auto;
+}
+
+.d-block {
+  transform: scale(0.7);
+  margin: auto;
+
+}
+
+#contact{
+  background:  linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(16,165,237,1) 8%, rgba(6,6,6,1) 38%);
+  padding: 5% 30%;
+}
+.address-bor{
+  color: white;
+  padding: 2% 10%;
+}
+.phone-bor{
+  color:white;
+  padding: 2% 10%;
+}
+
+/* Contact */
+.contact-link{
+  background:  linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(16,165,237,1) 8%, rgba(6,6,6,1) 38%);
+  padding: 15% 20%;
+}
+
+.contact-link h3{
+  font-size: 10vh;
+}
+.contact-link p{
+  font-size: 3vh;
+  text-align: justify;
+}
