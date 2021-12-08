@@ -12,10 +12,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -36,31 +32,26 @@
             <a class="nav-link" href="contact.html">Kontakt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Cennik</a>
+            <a class="nav-link" href="price-list.html">Cennik</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Galeria</a>
+            <a class="nav-link" href="gallery.html">Galeria</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid-first row align-items-center">
+      <div class="row align-items-center">
 
-        <div class="col-lg-6">
-          <h1 class="borBud">O nas</h1>
-          <p class="borBud">Nasza Firma świadczy profesjonalne usługi budowlane na terenie miasta Otmuchów i w jego okolicy.
-            Zakres naszej działalności to ....... mieszkań, domów, biur.
-            Realizujemy usługi z kompletnym materiałem, który dowozimy na miejsce. Wysyłamy szczegółową i bezpłatną wycenę, a uzgodniona cena jest obowiązująca.
-            Usługi budowlane świadczymy na najwyższym poziomie. Powierzając nam remont mieszkania możesz mieć pewność że prace te, zostaną wykonane fachowo i starannie. W swoim dorobku posiadamy bogate doświadczenie oraz rekomendacje wielu
-            zadowolonych klientów. Serdecznie zapraszamy do kontaktu.</p>
-          <button type="button" class="btn btn-lg btn-outline-dark fb-button col-4  "><i class="fab fa-facebook-messenger"></i> <a href="http://m.me/Borekbeng.69">Messenger</a></button>
-          <button type="button" class="btn btn-lg btn-outline-dark pic-button col-4 "><i class="fas fa-photo-video"></i> Galeria</button>
+        <div class="about-us col-lg-12  ">
+          <h1 class="titleH1-heading">O nas</h1>
+          <span class="borBud-span text"></span><span class="spnCursor">|</span>
+          <div class="row  justify-content-md-center">
+          <button type="button" class="btn btn-lg btn-outline-light fb-button col-4  "><i class="fab fa-facebook-messenger"></i> <a href="http://m.me/Borekbeng.69">Messenger</a></button>
+          <button type="button" class="btn btn-lg btn-outline-light pic-button col-4 "><i class="fas fa-photo-video"></i> Galeria</button>
+            </div>
+        </div>
 
-        </div>
-        <div class="col-lg-6">
-          <img class="toolsImg" src="images/tools.jpg" alt="tools">
-        </div>
       </div>
     </div>
 
@@ -70,18 +61,18 @@
   <!-- Features -->
 
   <section id="features" class="container-fluid">
-    <div class="row features-row">
+    <div class="row features-row justify-content-md-center">
 
-      <div class="col-12 col-lg-4 col-md-9 col-sm-9 feature-box">
-        <h3 class="h3feature"><i class="fas fa-toolbox fa-2x"></i> Remonty</h3>
+      <div class="col-12 col-lg-4 col-md-9 col-sm-9 feature-box ">
+        <h3 class="featureH3-heading"><i class="fas-feature fas fa-toolbox fa-2x"></i> Remonty</h3>
         <p>Wykonujemy wszelkie prace remontowe budynków i lokali mieszkalnych. Stosujemy tylko materiały wysokiej jakości, a nasza wyszkolona kadra dba o jakość wykonanych prac.</p>
       </div>
-      <div class="col-12 col-lg-4 col-md-9 col-sm-9 md-div feature-box">
-        <h3 class="h3feature"><i class="fas fa-temperature-high fa-2x"></i> Docieplenia</h3>
+      <div class="col-12 col-lg-4 col-md-9 col-sm-9  feature-box">
+        <h3 class="featureH3-heading"><i class="fas-feature fas fa-temperature-high fa-2x"></i> Docieplenia</h3>
         <p>Termomodernizacja i docieplenia budynków mieszkalnych i wielorodzinnych oraz obiektów użyteczności publicznej. Renowacje starych elewacji</p>
       </div>
-      <div class="col-12 col-lg-4 col-md-9 mr-auto col-sm-9 feature-box">
-        <h3 class="h3feature"><i class="fas fa-paint-roller fa-2x"></i> Wykańczanie wnętrz</h3>
+      <div class="col-12 col-lg-4 col-md-9  col-sm-9 feature-box">
+        <h3 class="featureH3-heading"><i class="fas-feature fas fa-paint-roller fa-2x"></i> Wykańczanie wnętrz</h3>
         <p>Wykończenia wnętrz o wysokim standardzie nie są nam obce, a stosowane materiały renomowanych producentów gwarantują 100% satysfakcji.</p>
       </div>
     </div>
@@ -93,7 +84,7 @@
 
   <section id="picture">
 
-    <h2 class="Our-job">Przykładowe realizacje</h2>
+    <h2 class="pictureH2-heading">Przykładowe realizacje</h2>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -130,25 +121,24 @@
     </a>
 </div>
 
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
   </section>
 
 
-  <!-- Press -->
+  <!-- Footer - contact -->
 
   <footer id="contact" class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 address-bor">
-        <h3>Adres:</h3>
+    <div class="row justify-content-between">
+      <div class="col-lg-4 col-md-4 col-sm-12 address-bor">
+        <h3 class="contactH3-heading"><i class="fas fa-map-marker-alt"></i> Adres:</h3>
         <p>ul. Wesoła 22 <br>48-385 Otmuchów <br>Polska</p>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 phone-bor">
-        <h3>Telefon:</h3>
+      <div class="col-lg-4 col-md-4 col-sm-12 order-first phone-bor">
+        <h3 class="contactH3-heading"><i class="fas fa-mobile-alt"></i> Telefon:</h3>
         <p>606 788 959</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 phone-bor">
+        <h3 class="contactH3-heading"><i class="far fa-envelope"></i> email:</h3>
+        <p>borek@xmail.com</p>
       </div>
 
     </div>
@@ -158,7 +148,7 @@
 
 
 
-
+  <script src="main.js"></script>
 </body>
 
 </html>
